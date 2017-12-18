@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">多宝优理财</string>
+    <string name="login_pass">密码</string>
+    <string name="login">登录</string>
+    <string name="login_find_pass">找回密码?</string>
+    <!-- register -->
+    <string name="install_phone_null">请输入正确的手机号码</string>
+    <string name="install_phone_error">手机号不正确</string>
+    <string name="register_complete">完\t\t成</string>
+    <string name="login_phone">手机号码</string>
+    <string name="register_yzm_get">获取验证码</string>
+    <string name="register_pass_hint1">密码(6-20个字符，数字/字母/汉字)</string>
+    <string name="register_pass_hint2">确认密码(6-20个字符，数字/字母/汉字)</string>
+    <string name="register_agree">同意云安家《用户注册协议》</string>
+    <string name="register_code_null">验证码不能为空</string>
+    <string name="register_pwd_null">密码不能为空</string>
+    <string name="register_pwd_again_null">确认密码不能为空</string>
+    <string name="register_pwd_less">密码不能小于6位</string>
+    <string name="register_pwd_more">密码不能大于18位</string>
+    <string name="register_pwd_error">2次输入的密码不一致</string>
+    <!-- MainActivity -->
+    <string name="sample">sample</string>
+    <!-- TradeRecordActivity -->
+    <string name="traderecordtitle">交易记录</string>
+    <string name="traderecordmenu">筛选</string>
+    <!-- BankCardActivity -->
+    <string name="bankcardtitle">银行卡</string>
+    <string name="warmprompt">温馨提示：\n\n1. 申请取现多宝优账户上的金额会到账到绑定的银行卡中；\n\n2. 凡成功绑定汇付天下快捷支付银行卡，该银行卡会默认为您的提现银行卡；\n\n3. 解绑/更换汇付快捷支付银行卡指引：
+\n\t\t1）需登录汇付页面https://c.chinapnr.com/p2puser/
+
+\n\t\t2）输入您的的汇付用户名（dbd_ + 多宝优用户名组成） 和汇付的登录密码
+
+\n\t\t3）选择快捷支付银行卡进行解绑即可。
+</string>
+    <string name="withdraw">1.提现申请在工作日18:00前提交，则当日完成提现审核，否则将在下一个工作日18：00前完成审核。审核通过后第三方资金托管方将在T+1工作日内将资金转入您指定的银行帐号上；\n
+2. 取现前需在“我的”-“银行卡”添加您的取现银行卡；\n
+3. 每笔提现金额最低为100元，最高为 100万元；\n
+4. vip会员取现投资后的资金免收提现服务费；\n
+5.充值后不投资的资金需要在充值之日起30天后才可取现，且需扣除提现金额的0.5%服务费。</string>
+
+
+    <string name="withdraw2">1.提现申请在工作日18:00前提交，则当日完成提现审核，否则将在下一个工作日18：00前完成审核。审核通过后第三方资金托管方将在T+1工作日内将资金转入您指定的银行帐号上；\n
+2.取现前需在“我的账户”-“账户管理”-“银行卡管理”添加您的取现银行卡；\n
+3.单笔提现金额最低为x元，最高为 100万元；\n
+4.vip会员投资后的资金免收提现服务费；\n
+5.充值后不投资的资金需要在充值之日起30天后才可取现，且需扣除提现金额的0.5%服务费。</string>
+    <string name="tixian_tips">温馨提示：\n
+        1.请输入提现金额，提现申请在工作日18:00前提交，则当日完成提现审核，否则将在下一个工作日18：00前完成审核；\n
+        2. 取现前若未添加银行卡，需在“我的账户”-“账户管理”-“银行卡”添加您的提现银行卡；\n
+        3. 每笔提现金额最低为100元，最高为 100万元；\n
+        4. vip会员投资后的资金提现免收提现服务费；\n
+        5.充值后不投资的资金在充值之日起30天后才可提现，且需扣除提现金额的0.5%服务费。</string>
+
+    <!-- AutoTenderActivity -->
+    <string-array name="tenderway">
+        <item>按照余额</item>
+        <item>最大金额</item>
+        <item>固定金额</item>
+    </string-array>
+    <string-array name="showtenderway">
+        <item>(填写金额为账户保留金额,不会加入自动投标;不填写则不保留)</item>
+        <item>(填写金额为每次自动投标可执行的最大金额)</item>
+        <item>(填写金额为每次自动投资标固定投标的金额)</item>
+    </string-array>
+    <string name="repayment_way_1">等额本息</string>
+    <string name="repayment_way_2">一次性还本付息</string>
+    <string name="repayment_way_3">每月付息到期还本</string>
+    <string name="agree_auto_tender">我已阅读并同意《投资人须知》</string>
+    <string-array name="deadline">
+        <item>1个月</item>
+        <item>2个月</item>
+        <item>3个月</item>
+        <item>4个月</item>
+        <item>5个月</item>
+        <item>6个月</item>
+        <item>7个月</item>
+        <item>8个月</item>
+        <item>9个月</item>
+        <item>10个月</item>
+        <item>11个月</item>
+        <item>12个月</item>
+    </string-array>
+    <string-array name="profit">
+        <item>6%</item>
+        <item>7%</item>
+        <item>8%</item>
+        <item>9%</item>
+        <item>10%</item>
+        <item>11%</item>
+        <item>12%</item>
+        <item>13%</item>
+        <item>14%</item>
+        <item>15%</item>
+    </string-array>
+    <!-- AccountOverviewActivity -->
+    <string name="accountoverviewtitle">账户总览</string>
+    <!-- OrientationTenderActivity -->
+    <string name="orientationtendertitle">定向标</string>
+    <string-array name="pagerTitle">
+        <item>全部合伙人</item>
+        <item>首席合伙人</item>
+        <item>普通合伙人</item>
+    </string-array>
+    <string-array name="overviewPagerTitle">
+        <item>我的</item>
+        <item>首席合伙人</item>
+        <item>普通合伙人</item>
+    </string-array>
+    <string-array name="helperItems">
+        <item>新手指引</item>
+        <item>投资介绍</item>
+        <item>VIP介绍</item>
+        <item>名词术语</item>
+        <item>常见问题</item>
+        <item>意见反馈</item>
+    </string-array>
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="no_system_message">无系统通知</string>
+    <string name="please_input_image_code">请输入图形验证码</string>
+    <string name="image_code_error">验证码错误</string>
+    <string name="please_input_code_hint">请输入验证码</string>
+    <string name="error_download">下载失败！</string>
+    <string name="during_download">正在下载...</string>
+    <string name="end_download">下载完成！</string>
+    <string name="refresh_tips">银行资金存管，保障资金安全</string>
+    <string name="not_real_name">未实名</string>
+    <string name="real_name">已实名</string>
+    <string name="not_open_deposit">未开通存管</string>
+    <string name="not_activate_deposit">未激活存管</string>
+    <string name="opened_deposit">已开通存管</string>
+    <string name="my_ui_bottom_tip">新网银行为您提供资金存管服务，保障您的资金安全</string>
+    <string name="recharge">充值</string>
+    <string name="withdraw_deposit">提现</string>
+    <string name="password_management">密码管理</string>
+    <string name="risk_evaluation">风险测评</string>
+    <string name="sing_net_deposit_account">新网银行资金存管账户</string>
+    <string name="sing_net_deposit_account_open">已开通</string>
+    <string name="sing_net_deposit_account_not_open">未开通</string>
+    <string name="bankcard_management">银行卡管理</string>
+    <string name="bank_reserved_phone">银行预留手机号</string>
+    <string name="update_reserved_phone">更新银行预留手机号</string>
+    <string name="update_reserved_phone_tip">您正在更新银行预留手机号</string>
+    <string name="customer_name">客户姓名</string>
+    <string name="binded_bankcard">已绑银行卡</string>
+    <string name="reserved_phone">预留手机号</string>
+    <string name="register_yzm">验证码</string>
+    <string name="please_input_reserved_phone">请输入预留手机号</string>
+    <string name="please_input_verification_code">请输入验证码</string>
+    <string name="update_reserved_phone_tip1">温馨提示：新网银行不承担多宝优平台的投融资标的物及投融资人的审核责任，不对邦帮堂平台业务提供明示或默示的担保
+	或连带责任，邦帮堂平台的交易风险由投融资人自行承担，与新网银行无关。</string>
+    <string name="make_sure">确认</string>
+    <string name="sing_net">新网银行</string>
+    <string name="deposit_system">资金存管系统</string>
+    <string name="modify_deposit_password">修改新网资金存管交易密码</string>
+    <string name="modify_login_passowrd">修改平台登录密码</string>
+    <string name="modify_gesture_password">修改手势密码</string>
+    <string name="gesture_login">手势密码登录</string>
+    <string name="input_password_closed_gesture">请验证登录密码关闭手势密码</string>
+    <string name="input_login_password">请输入多宝优平台登录密码</string>
+    <string name="not_review">未评测</string>
+    <string name="review">已评测</string>
+    <string name="assess_one">谨慎型出借人</string>
+    <string name="assess_two">稳健型出借人</string>
+    <string name="assess_three">积极型出借人</string>
+    <string name="assess_four">激进型出借人</string>
+    <string name="safe_logout">安全退出</string>
+    <string name="reset_deposit_password">重置交易密码</string>
+    <string name="you_are_service_for">您正在为</string>
+    <string name="remenber_old_password">我记得原交易密码</string>
+    <string name="forget_old_password">我忘记原交易密码了</string>
+    <string name="old_trade_password">原交易密码</string>
+    <string name="new_trade_password">新交易密码</string>
+    <string name="input_old_trade_password">请输入原交易密码</string>
+    <string name="input_new_trade_password">请输入新交易密码</string>
+    <string name="password_rule">密码由6-18位英文字母、数字或者符号组成</string>
+    <string name="show_password">显示密码</string>
+    <string name="old_trade_password_not_empty">原交易密码不能为空</string>
+    <string name="new_trade_password_not_empty">新交易密码不能为空</string>
+    <string name="verification_caode_not_empty">验证码不能为空</string>
+    <string name="forget_trade_password_update_tips">验证已绑定银行卡信息，确保本人操作</string>
+    <string name="forget_trade_password_update_tips1">请输入上方完整的银行卡号</string>
+    <string name="bankcard_number">银行卡号</string>
+    <string name="input_bankcard_number">请输入您的银行卡号</string>
+    <string name="forget_trade_password_update_tips2">已绑定银行卡预留手机号</string>
+    <string name="next">下一步</string>
+    <string name="support_bank">支持银行</string>
+    <string name="chongzhi_tips">温馨提示：\n
+        1、禁止洗钱、信用卡套现、虚假交易等行为，一经发现并确认，将予以处罚，包括但不限于冻结账户、永久停止服务等；\n
+        2、充值后不投资的资金在充值之日起30天后才可提现，且需扣除提现金额的0.5%服务费</string>
+    <string name="chongzhi_tips1">温馨提示：\n
+        1.请注意您的银行卡充值限制，以免造成不便；\n
+        2.充值后不投资的资金30天后方可取现，且需扣除提现金额的0.5%手续费；\n
+        3.禁止洗钱、信用卡套现、虚假交易等行为，一经发现并确认，将终止该账户的使用；\n
+        4.如您需要网银充值、线下充值，可登录多宝优官网（www.duobaodai.com）操作，或致电多宝优客服热线400-020-0769咨询</string>
+    <string name="account_total_money">账户总额（元）</string>
+    <string name="available_money">可用余额（元）</string>
+    <string name="coming_in_money">待收金额（元）</string>
+    <string name="account_frozen">冻结金额（元）</string>
+    <string name="withdraw_bankcard">提现银行卡：</string>
+    <string name="withdraw_money">可提现额（元）</string>
+    <string name="free_charge">（免手续额：￥</string>
+    <string name="with_charge">（收手续费额：￥</string>
+    <string name="please_input_tixian_number">请输入提现金额，最低100元</string>
+    <string name="confirm_withdraw">确认提现</string>
+    <string name="withdraw_tips">温馨提示：\n
+        1、若您在汇付托管系统绑定的银行卡已不能使用，请先登录多宝优官网-我的账户-汇付账户进行银行卡解绑更换操作；\n
+        2、自2017年9月5日起，多宝优平台正式上线新网银行存管系统，原汇付天下托管系统投资、充值等资金交易行为停止，仅保留提现功能，且需要全额提现；\n
+        3、用户在原汇付天下托管系统未回款的债权项目，将迁移到新网银行存管系统，当债权项目到期还款时，借款人将会直接在新网存管系统操作还款，待还款项目可在投资管理-回款明细中查询；\n
+        4、由于新网银行存管系统与汇付天下托管系统隶属两套不同的资金存/拖管系统，因此用户在汇付天下托管系统下账户的可用余额与冻结金额不能直接迁移到新网银行存管系统，用户需在该页面操作提现；\n
+        5、为不影响您的资金使用，请在2017年9月30日前完成汇付天下托管系统下账户可用余额的提现，与汇付终止合作后，若需要提现，则需要自主登录汇付天下网站操作提现；\n
+        6、新网银行存管是从用户资金安全出发，是多宝优合规化运营的关键性举措，新网银行存管系统上线后，给原汇付托管系统用户造成的不便，平台予以歉意，敬请谅解。</string>
+    <string name="huifu_account">汇付账户</string>
+    <string name="open_singnet_tips">您尚未开通新网银行资金管理，资金更安全，马上开通。</string>
+    <string name="add_bankcard">添加银行卡</string>
+    <string name="my_bankcard">我的银行卡</string>
+    <string name="bind_bankcard_tip">温馨提示：\n
+        1、若需更换银行卡，请先解绑当前已绑定的银行；\n
+        2、绑定银行卡持卡人信息必须与实名认证信息一致；\n
+        3、具体支持绑卡银行列表可参照支持银行。</string>
+    <string name="unbind_bankcard">解绑银行卡</string>
+    <string name="bind_card">绑卡</string>
+    <string name="bind_card_tips">您尚未绑定银行卡，可点击“绑卡”前往新网银行存管系统操作绑卡。</string>
+    <string name="bind_huifu_card_tips">您还未绑定银行卡,绑定银行卡后才能进行提现操作。</string>
+    <string name="more_pay_limit">更多支付限额</string>
+    <string name="action_center">活动中心</string>
+    <string name="open_deposit_tip">您尚未开通新网银行资金存管账户，成功开通后，才能进行充值、投资、提现等操作。</string>
+    <string name="activate_deposit_tip">您尚未激活新网银行资金存管账户，成功激活后，才能进行充值、投资、提现等操作。</string>
+    <string name="coming_soon">敬请期待！</string>
+    <string name="regular_financial">定期理财</string>
+    <string name="optimal_cast_plan">优投计划</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="excellent_plan_tips">被抢完了！设置自动投标，不用抢，投资更轻松！</string>
+    <string name="go_setting">去设置</string>
+    
+    <!--优投计划-->
+    <string name="matching">待匹配</string>
+    <string name="incoming">收益中</string>
+    <string name="earned">已收益</string>
+    <string name="join">马上加入</string>
+</resources>

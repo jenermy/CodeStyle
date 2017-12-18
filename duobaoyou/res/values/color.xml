@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a3a3a5</color>
+    <color name="gray1">#55a3a3a5</color>
+    <color name="blue">#176ce0</color>
+    <color name="blue_with_alph">#00ffffff</color>
+    <color name="blue_press">#80176ce0</color>
+    
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="yellow">#fdce25</color>
+    <color name="tab_text_color">#3f3f3f</color>
+    <color name="half_transparent">#77000000</color>
+
+    <color name="content_color">#272727</color>
+    <color name="right_content_color">#c0c0c0</color>
+</resources>

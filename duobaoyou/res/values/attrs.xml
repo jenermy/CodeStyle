@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="bgColor" format="color" />
+    <attr name="fgColor" format="color" />
+    <attr name="percent" format="float" />
+    <attr name="startAngle" format="float" />
+
+    <declare-styleable name="SectorProgressView">
+        <attr name="bgColor" />
+        <attr name="fgColor" />
+        <attr name="percent" />
+        <attr name="startAngle" />
+    </declare-styleable>
+    <declare-styleable name="ColorfulRingProgressView">
+        <attr name="bgColor" />
+        <attr name="fgColorStart" format="color" />
+        <attr name="fgColorEnd" format="color" />
+        <attr name="strokeWidths" format="dimension" />
+        <attr name="percent" />
+        <attr name="startAngle" />
+    </declare-styleable>
+    <declare-styleable name="SuperscriptView">
+        <attr name="rightEdge" format="dimension" />
+        <attr name="leftEdge" format="dimension" />
+        <attr name="topEdge" format="dimension" />
+        <attr name="smallLeftEdge" format="dimension" />
+        <attr name="smallRightEdge" format="dimension" />
+        <attr name="smallTopEdge" format="dimension" />
+        <attr name="gravitys">
+            <flag name="leftTop" value="1" />
+            <flag name="rightTop" value="2" />
+        </attr>
+    </declare-styleable>
+    <!-- 圆形图片 -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+    <!-- 圆角矩形图片-->
+    <declare-styleable name="RoundRectangleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="LockPatternView">
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswBackMeasureRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+        <attr name="kswTextOn" format="string" />
+        <attr name="kswTextOff" format="string" />
+        <attr name="kswTextMarginH" format="dimension" />
+    </declare-styleable>
+	<declare-styleable name="RatioImageView">
+	    <attr name="ratio" format="float"/>
+	</declare-styleable>
+	
+	<declare-styleable name="JazzyViewPager">
+        <attr name="style">
+            <enum name="standard" value="0" />
+            <enum name="tablet" value="1" />
+            <enum name="cubein" value="2" />
+            <enum name="cubeout" value="3" />
+            <enum name="flipvertical" value="4" />
+            <enum name="fliphorizontal" value="5" />
+            <enum name="stack" value="6" />
+            <enum name="zoomin" value="7" />
+            <enum name="zoomout" value="8" />
+            <enum name="rotateup" value="9" />
+            <enum name="rotatedown" value="10" />
+            <enum name="accordion" value="11" />
+        </attr>
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="outlineEnabled" format="boolean" />
+        <attr name="outlineColor" format="color|reference" />
+    </declare-styleable>
+	
+</resources>

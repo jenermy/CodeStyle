@@ -1,0 +1,83 @@
+*{outline: none;margin: 0;padding: 0;}
+.back00{background-color: #fff;}
+.back01{background-color: #f4f7fb;}
+.back02{background-color: #c8c9cb;}
+.back03{background-color: #2095f2;}
+.back04{background-color: #85b1ed;}
+
+.disable{background-color:#c8c9cb;}
+
+.color00{color:#fff;}
+.color01{color:#c8c9cb;}
+.color02{color:#15182b;}
+.color03{color:#c8c9cb;}
+.color04{color: #2095f2;}
+.color05{color:#176ce0;}
+.color06{color:#b3b3b3;}
+.color07{color: #545454;}
+
+.font00{font-size: 35px;}
+.font01{font-size: 40px;}
+.font02{font-size: 45px;}
+.font03{font-size: 50px;}
+.font04{font-size: 55px;}
+
+.w01{width: 960px;}
+.w02{width: 840px;}
+.w03{width: 200px;}
+.w04{width: 70px;}
+.w05{width: 820px;}
+.w06{width: 600px;}
+.w07{width: 320px;}
+
+.h01{height: 120px;line-height: 120px;}
+.bn{border: none;}
+.nb{display: none;}
+.ib{display: inline-block;}
+
+.tl{text-align: left;}
+.tc{text-align: center;}
+.tr{text-align: right;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+.mt00{margin-top: 30px;}
+.mt01{margin-top: 40px;}
+.mt02{margin-top: 110px;}
+.mt02{margin-top: 60px;}
+.ml00{margin-left: 30px;}
+.ml01{margin-left: 70px;}
+
+.pl00{padding-left:40px ;}
+.pr00{padding-right:40px ;}
+.pt00{padding-top: 25px;}
+.pt01{padding-top: 40px;}
+.pb00{padding-bottom: 25px;}
+.pb01{padding-bottom: 40px;}
+
+.borRad00{border-radius: 15px;}
+
+.ellipsis{overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+
+input::-webkit-input-placeholder{color:#b3b3b3;font-size: 35px;}
+
+.round{width: 63px;height: 63px;line-height: 63px;text-align: center;border-radius: 100%;}
+.center{width: 840px;margin-left:60px;}
+.bor00{border:1px solid #e3e3e3}
+.borderT{border-top: 1px solid #e7e8e9;}
+.borderB{border-bottom: 1px solid #e7e8e9;}
+.comBut{margin: 115px 0 95px 60px;height: 120px;line-height: 120px;border-radius: 10px;}
+/*.error,.error::-webkit-input-placeholder{color:red;}*/
+
+.lh00{line-height: 1.2em;}
+.lh01{line-height: 1.5em;}
+.lh02{line-height: 1.8em;}
+
+.msg{position:absolute;top:15%;width:;}
+
+.pr{position: relative;}
+
+.onescreen{width:100%;height:100%;position:absolute;left:0;top:0;overflow: scroll;-webkit-overflow-scrolling:touch;}
+.error,.error::-webkit-input-placeholder{color:red;}
+.msg{position:absolute;top:30%;left:25%;line-height:3.2em;width:50%;text-align:center;font-size:35px;height:0;-webkit-transition:height .3s;background-color:rgba(0,0,0,.75);color:#fff;border-radius:6px;overflow:hidden;}

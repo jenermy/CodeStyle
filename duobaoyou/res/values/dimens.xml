@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="auto_tender_hroizontal_magrin">8dp</dimen>
+    <dimen name="dialog_hroizontal_magrin">48dp</dimen>
+    <!-- 标题大小 -->
+	<dimen name="title">18sp</dimen>
+    <!-- 内容大小 -->
+	<dimen name="content">16sp</dimen>
+	<dimen name="px24">10sp</dimen>
+	<dimen name="px26">11sp</dimen>
+	<dimen name="px27">12sp</dimen>
+	<dimen name="px28">14sp</dimen>
+	<dimen name="px30">14sp</dimen>
+	<dimen name="px32">16sp</dimen>
+	<dimen name="px34">16.5sp</dimen>
+	<dimen name="px36">17sp</dimen>
+	<dimen name="px38">17.5sp</dimen>
+	<dimen name="px40">18sp</dimen>
+	<dimen name="px42">19sp</dimen>
+	<dimen name="px44">20sp</dimen>
+	<dimen name="px50">22sp</dimen>
+	<dimen name="px63">28sp</dimen>
+</resources>

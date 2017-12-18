@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.showsoft.fragment.CastPlanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/planListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="5dp" >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout_no_record"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/iv_youtou_tip"/>
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/excellent_plan_tips"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/textView_go_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/go_setting"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shape_btn_blue_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="@dimen/px36"
+            android:textColor="#ffffff" />-->
+    </LinearLayout>
+
+
+</FrameLayout>
